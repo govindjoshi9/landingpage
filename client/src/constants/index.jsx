@@ -61,62 +61,62 @@ export const testimonials = [
 export const features = [
   {
     icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
+    text: "Dynamic Community",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+      " Join an exclusive community dedicated to nurturing startup enthusiasts in Bangalore.",
   },
   {
     icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
+    text: "Career Opportunities",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "Explore various career paths including co-founder roles, project management, graphic design, and more!",
   },
   {
     icon: <ShieldHalf />,
-    text: "Built-in Templates",
+    text: "Access to PedalStart Meetups",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "Get exclusive access to offline meetups and online events organized by PedalStart.",
   },
   {
     icon: <BatteryCharging />,
-    text: "Real-Time Preview",
+    text: "Connect with Startups",
     description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+      " Network and connect with accelerated startups and cohorts within the startup ecosystem.",
   },
   {
     icon: <PlugZap />,
-    text: "Collaboration Tools",
+    text: "Collaborative Projects",
     description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+      "Participate in projects, hackathons, and initiatives with fellow members. Pool together expertise, creativity, and passion to tackle real-world challenges, innovate, and make a meaningful impact.",
   },
   {
     icon: <GlobeLock />,
-    text: "Analytics Dashboard",
+    text: "Mentorship Programs",
     description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+      "Access exclusive mentorship programs and guidance from seasoned entrepreneurs and industry experts. Benefit from their invaluable insights, advice, and experience as you navigate the challenges and opportunities of the startup ecosystem.",
   },
 ];
 
 export const checklistItems = [
   {
-    title: "Code merge made easy",
+    title: "Form Screening",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Complete a simple form expressing your interest in joining PedalConnect",
   },
   {
-    title: "Review code without worry",
+    title: "One-on-One Interaction",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      " Engage in a personalized interaction to understand your aspirations and interests.",
   },
   {
-    title: "AI Assistance to reduce time",
+    title: "Express Your Interest",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Kickstart your journey by filling out a brief form expressing your interest in joining PedalConnect. Tell us about yourself, your passions, and what you hope to achieve within the community.",
   },
   {
-    title: "Share work in minutes",
+    title: "Personalized Interaction",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Experience a personalized one-on-one interaction with our team. Dive deeper into your aspirations, goals, and interests. We're here to understand your unique journey and how PedalConnect can support you along the way.",
   },
 ];
 
