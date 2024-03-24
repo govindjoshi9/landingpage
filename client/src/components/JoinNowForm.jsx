@@ -18,7 +18,7 @@ const JoinNowForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("/createClient", {
+      const response = await fetch("http://localhost:8080/createClient", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
