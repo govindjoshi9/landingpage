@@ -6,7 +6,6 @@ const User = require("./models/User");
 
 const app = express();
 
-// Middleware
 app.use(express.json());
 app.use(
   cors({
@@ -28,7 +27,6 @@ async function connectToDatabase() {
 }
 
 
-// Middleware for validating form data
 const validateFormData = [
   body("name").notEmpty().withMessage("Name is required"),
   body("lastName").notEmpty().withMessage("Last name is required"),
@@ -40,9 +38,7 @@ const validateFormData = [
     .withMessage("Message must be less than 200 characters"),
 ];
 
-// Route to create a new client
 app.post("/createClient", validateFormData, async (req, res) => {
-  // Check for validation errors
   const errors = validationResult(req);
   if (!errors.isEmpty()) {
     return res.status(400).json({ errors: errors.array() });
@@ -59,14 +55,13 @@ app.post("/createClient", validateFormData, async (req, res) => {
       msg,
     });
 
-    res.status(201).json(userDoc); // HTTP 201 for successful creation
+    res.status(201).json(userDoc); 
   } catch (e) {
     console.error("Error creating user:", e);
     res.status(500).json({ error: "Internal server error" });
   }
 });
 
-// Connect to MongoDB and start server
 connectToDatabase().then(() => {
   app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
